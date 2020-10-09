@@ -1,19 +1,17 @@
-# Write a program that asks for a number from the user and prints “YES!” if the number is divisible by 5, and it prints “NOPE!” otherwise, then modify it to also ask which number to check it with if divisible.
+# Problem 2
+Write a Program to check if a number is divisible by any of its digits.
 
-## example cases:
+### Example 1:
+```
+N = 5115
+YES
+```
+Explanation: 5115 is divisible by both 1 and 5.
+So print YES.
 
+### Example 2:
 ```
-INPUT: 25
-YES!
-INPUT: 42
-NOPE!
+27
+NO
 ```
-
-## second part:
-
-```
-INPUT: 4, 24
-YES!
-INPUT: 8, 42
-NOPE!
-```
+Explanation: 27 is not divisible by 2 or 7

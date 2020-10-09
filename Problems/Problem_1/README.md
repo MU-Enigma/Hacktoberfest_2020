@@ -1,5 +1,7 @@
-# Write a program that asks you for the number of the day in a week and prints if which day it is.
-## like:
+# Problem 1
+Write a program that asks the user for the number of the day in a week and prints which day it is.
+
+### Example:
 ```enter number: 1
 Thats Monday!
 another one(y/n)? y
