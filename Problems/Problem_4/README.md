@@ -1,5 +1,5 @@
 # Problem 4
-Write a program that inputs a value n and prints the following pattern on the screen:'
+Write a program that inputs a value n and prints the following pattern on the screen:
 
 ### Example:
 ```

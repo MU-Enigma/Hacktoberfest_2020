@@ -11,7 +11,7 @@ So print YES.
 
 ### Example 2:
 ```
-27
+N = 27
 NO
 ```
 Explanation: 27 is not divisible by 2 or 7
