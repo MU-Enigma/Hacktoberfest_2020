@@ -1,5 +1,6 @@
+arr = [1,2,3,4,5,6,7]
 days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-alternate_input = ["another one(y/n)?","another one(y/n)? i guess?"]
+alternate_input = ["another one(y/n)?"]
 
 final_d = True
 
@@ -14,20 +15,10 @@ def decision(d):
 while(True):
     n = input ("Enter number :")
     n = int(n)
-    if n==1:
+    if n in arr:
         print(f"That's {days[n-1]}!")
-    elif n==2:
-        print(f"That's {days[n-1]}!")
-    elif n==3:
-        print(f"That's {days[n-1]}!")
-    elif n==4:
-        print(f"That's {days[n-1]}!")
-    elif n==5:
-        print(f"That's {days[n-1]}!")
-    elif n==6:
-        print(f"That's {days[n-1]}!")
-    elif n==7:
-        print(f"That's {days[n-1]}!")
+    else:
+        print("Number has to be in between 1 and 7. To give a different input press 'y' next")
 
     while True:
         inp = input(f"{alternate_input[0]}")
