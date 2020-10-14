@@ -2,7 +2,7 @@
 int main()
 {
     long long int n;
-    printf("N = ")
+    printf("N = ");
     scanf("%lld",&n);
     int temp=n,a=0;
     while(n>0)
