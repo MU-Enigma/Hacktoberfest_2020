@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() 
+
+{
+  int n =0;
+ 
+ std::cout<<"Enter value of n";
+ 
+ std::cin>>n;
+ 
+ int sum = 0;
+  
+for (int i=1 ; i<=n;i++)
+ 
+ {
+    sum += i;
+  
+}
+  
+std::cout<<"\n";
+ 
+ std::cout<<"sum ="<<sum;
+
+}
